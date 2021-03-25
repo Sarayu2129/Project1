@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentReports>
+    <configuration>
+       <!-- report theme -->
+       <!-- standard, dark -->
+       <theme>  standard</theme>
+       
+       <!-- document ending -->
+       <!-- defaults to UFT-8 -->
+       <encoding> UFT-8</encoding>
+       
+     <!-- protocl for script and stylesheets -->
+     <!-- defaults to https -->
+     <protocol> https</protocol>
+     
+     <!-- title of the document -->
+     <documentTitle> W2A Automation Reports</documentTitle>
+     
+     <!-- report name - displayed at the top- sarayu -->
+     <reportName> Automation Report for</reportName>
+     
+     <!-- report Headline - displayed at the top-sarayu ,after Report Headline-->
+     <reportHeadline> Data Driven Framework</reportHeadline>
+     
+     <!-- -global data format override -->
+     <!--  defaults to yyyy-mm-dd -->
+    <dateformat> yyyy-MM-DD</dateformat>
+    
+    <!-- global time farmat override -->
+    
+    <!-- defaults to HH-MM-SS -->
+    <timeformat> HH-MM-SS</timeformat>
+    <!-- custom javascript -->
+      <scripts>
+         <![CDATA[
+         $(document).ready(function(){
+        });
+         ]]>
+         </scripts>
+         <!-- custom scripts -->
+      <styles>
+          <![CDATA[
+          
+           ]]>
+      </styles>
+    
+    </configuration>
+    
+    
+    
+</extentReports>
